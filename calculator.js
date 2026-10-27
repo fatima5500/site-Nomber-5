@@ -15,6 +15,10 @@ function calc(){
     e=e.replace(/(\d+(?:\.\d+)?)%/g,'($1/100)');
     const r=Function('fact','Math','return ('+e+')')(fact,Math);
     if(!isFinite(r)) throw new Error('bad');
-    d.value=String(Math.round(r*1e10)/1e10);
+    const out=String(Math.round(r*1e10)/1e10);
+    const h=document.getElementById('history');
+    if(h){const row=document.createElement('div');row.textContent=d.value+' = '+out;h.prepend(row);while(h.children.length>5)h.removeChild(h.lastChild);}
+    d.value=out;
   }catch(err){d.value='Error'}
 }
+function tryEx(v){d.value=v;calc();}
