@@ -1,4 +1,4 @@
-# New Site — Online Calculator
+# SumWise — Online Calculator
 
 A static, 38-page calculator site: 1 homepage tool + 31 guides (Algebra 7,
 Percent and Decimal 12, Equivalent Fractions 12) + 3 info pages (About,
