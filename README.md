@@ -1,7 +1,7 @@
 # New Site — Online Calculator
 
-A static, 62-page calculator site: 1 homepage tool + 52 guides (Algebra 7,
-Percent and Decimal 23, Equivalent Fractions 12, New guides 10) + 2 reference
+A static, 71-page calculator site: 1 homepage tool + 61 guides (Algebra 7,
+Percent and Decimal 23, Equivalent Fractions 12, New guides 19) + 2 reference
 pages (prime numbers 1-100, square roots 1-100) + 3 info pages (About,
 Contact, Privacy) + 4 category pages. No build step, no database.
 
